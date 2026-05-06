@@ -1,20 +1,21 @@
 # Creator Content Posting Optimization System
 
 ## Team Information
-- **Team Name**: [Team Name]
-- **Year**: [Year]
-- **All-Female Team**: [Yes/No]
+- **Team Name**: [Hack horizon]
+- **Year**: [2026]
+- **All-Female Team**: [No]
 
 ## Architecture Overview
 
-**Instructions**: Describe your approach in 200 words or less. Address the following:
+Our system determines optimal posting times by combining platform-level activity data (e.g., peak user traffic windows) with creator-specific engagement history (likes, comments, watch time). This hybrid approach ensures recommendations are not generic but tailored to each creator’s audience behavior.  
 
-- How does your system determine the optimal posting time for content?
-- What strategy do you use to select between Instagram and YouTube platforms?
-- How do you balance platform activity patterns with creator-specific engagement history?
-- What approach do you take to decide between immediate posting versus scheduling?
+Platform selection between Instagram and YouTube is guided by content type and audience intent: short, visually engaging posts lean toward Instagram, while long-form, narrative-driven or tutorial content is prioritized for YouTube. We also factor in historical performance—if a creator’s audience consistently engages more deeply on one platform, that preference influences the recommendation.  
 
----
+Balancing platform activity patterns with creator history involves weighted scoring. Platform traffic trends provide a baseline, while creator-specific metrics (past post performance, follower activity times) adjust the recommendation. This prevents over-reliance on global averages and ensures personalization.  
+
+For immediate posting versus scheduling, the system evaluates urgency and relevance. Time-sensitive or trending content is flagged for immediate release, while evergreen or planned campaigns are scheduled to align with peak engagement windows. This ensures creators maximize reach without sacrificing timeliness.  
+
+In short, the architecture blends global platform insights with individualized audience data, optimizing both timing and channel for maximum impact.  
 
 *Keep your description concise and focused on your core decision-making logic.*
 
